@@ -147,6 +147,7 @@
   ],
   "ES2015/ES6": [
     "disallowArrowFunctions",
+    "disallowIdenticalDestructuringNames",
     "disallowShorthandArrowFunctions",
     "disallowParenthesesAroundArrowParam",
     "requireParenthesesAroundArrowParam",
@@ -168,6 +169,7 @@
     "disallowNotOperatorsInConditionals",
     "requireDollarBeforejQueryAssignment",
     "safeContextKeyword",
-    "jsDoc"
+    "jsDoc",
+    "disallowNestedTernaries"
   ]
 }
